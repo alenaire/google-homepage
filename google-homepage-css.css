@@ -1,0 +1,68 @@
+#buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sbut {
+	margin: 40px 3px;
+	display: inline-block;
+	padding: 13px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #F3F3F3
+
+}
+
+#sbut:hover {
+
+	background-color: #cacaca
+}
+
+#bnav {
+	background-color: #F3F3F3
+}
+
+#bnavml {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+    float: left;
+}
+
+#bnbut {
+	display: inline-block;
+	padding: 13px;
+	font-family: arial;
+	font-size: 12px;]
+}
+
+#bnavmr {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    text-align: right;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 30px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
